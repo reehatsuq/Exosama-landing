@@ -1,0 +1,186 @@
+.body {
+  background-color: #16132b;
+  background-image: url('../images/exo-coming-soon-backdrop.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.heading {
+  padding-top: 64px;
+  font-family: 'Akira super', sans-serif;
+  color: #fff;
+  font-size: 156px;
+  line-height: 164px;
+}
+
+.container {
+  max-width: 1200px;
+  margin-top: 120px;
+}
+
+.h1-alt {
+  font-family: 'Akira outline', sans-serif;
+  color: #0eeba8;
+  font-weight: 700;
+}
+
+.image {
+  max-width: 80%;
+}
+
+.grid {
+  grid-template-areas: ". . . . . Area-2 Area";
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 0.25fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 0.25fr;
+}
+
+.div-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 32px;
+}
+
+.image-2 {
+  max-width: 60%;
+}
+
+.image-3 {
+  max-width: 60%;
+}
+
+.image-4 {
+  max-width: 60%;
+}
+
+.link-block {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: inline-block;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.twitter {
+  position: relative;
+}
+
+.telegram {
+  position: relative;
+}
+
+.link-block-2 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: block;
+}
+
+.div-block-2 {
+  position: relative;
+}
+
+.link-block-3 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+}
+
+@media screen and (max-width: 991px) {
+  .body {
+    background-position: 20% 50%;
+    background-size: auto;
+  }
+
+  .heading {
+    padding-left: 32px;
+    font-size: 122px;
+    line-height: 130px;
+  }
+
+  .image {
+    padding-left: 32px;
+  }
+
+  .div-block {
+    padding-left: 32px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .body {
+    background-position: 30% 50%;
+  }
+
+  .heading {
+    padding-top: 40px;
+    padding-left: 32px;
+    font-size: 92px;
+    line-height: 102px;
+  }
+
+  .image {
+    padding-left: 32px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .body {
+    background-position: 30% 50%;
+    background-size: auto;
+  }
+
+  .heading {
+    margin-bottom: 40px;
+    padding-left: 16px;
+    font-size: 42px;
+    line-height: 50px;
+  }
+
+  .container {
+    margin-top: 64px;
+  }
+
+  .image {
+    padding-left: 16px;
+  }
+
+  .div-block {
+    padding-left: 16px;
+  }
+
+  .image-2 {
+    max-width: 50%;
+  }
+
+  .image-3 {
+    max-width: 50%;
+  }
+
+  .image-4 {
+    max-width: 50%;
+  }
+}
+
+@font-face {
+  font-family: 'Akira outline';
+  src: url('../fonts/Akira-Outline.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Akira super';
+  src: url('../fonts/Akira-Super-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
